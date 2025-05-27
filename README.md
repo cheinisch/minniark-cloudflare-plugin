@@ -1,1 +1,1 @@
-# minniark-cloudflare-plugin
+# Cloudflare integration for Minniark
