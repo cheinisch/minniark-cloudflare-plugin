@@ -6,8 +6,15 @@
   "settings": {
     "fields": [
       {
-        "key": "disqus_shortname",
-        "label": "Disqus Shortname",
+        "key": "cloudflare_api",
+        "label": "Cloudflare API Token",
+        "type": "text",
+        "hint": "A shortname is the unique identifier assigned to a Disqus site. All the comments posted to a site are referenced with the shortname. The shortname tells Disqus to load only your site's comments, as well as the settings specified in your Disqus admin.",
+        "required": true
+      },
+      {
+        "key": "cloudflare_zone_id",
+        "label": "Cloudflare Zone ID",
         "type": "text",
         "hint": "A shortname is the unique identifier assigned to a Disqus site. All the comments posted to a site are referenced with the shortname. The shortname tells Disqus to load only your site's comments, as well as the settings specified in your Disqus admin.",
         "required": true
